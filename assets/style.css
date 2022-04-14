@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}  
+
+.menu, .search-icon, .vs-icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+.logo {
+    width: 250px;
+}
