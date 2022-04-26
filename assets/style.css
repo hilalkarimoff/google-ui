@@ -1,6 +1,8 @@
 *{
     margin: 0;
+    box-sizing: 0;
     text-decoration: none;
+    outline: none;
 }
 body{
     display: flex;
@@ -13,7 +15,169 @@ body{
     height: 24px;
 }
 
+.menu{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+  .menu:hover{
+    background-size: 15px;
+    background-color: #3d3d3d;
+    opacity: .5;
+    border-radius: 50%;
+    height: 1.8rem;
+    weight: 1rem;
+}  
+
 
 .logo {
     width: 250px;
+    margin-bottom: 2%;
+  
 }
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+}
+
+nav a{
+    padding: 5px 7px;
+    color: #000; 
+}
+
+ nav a:hover{
+    text-decoration: underline;
+} 
+
+nav button{
+    background: #1a73e8;
+    color: #fff;
+    border: transparent;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+section{
+    flex: 1;
+    display: flex;
+    margin-bottom: 8%; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+      }
+
+.buttons{
+    margin-top: 7px;
+}
+
+.buttons button:hover{
+    box-shadow: 0px 0px 8px rgb(189 , 185, 185);
+}
+
+.s-box{
+    width: 600px;
+    text-align: center;
+    position: relative;
+    
+}
+
+form input:hover{
+    box-shadow: 0px 0px 8px rgb(189 , 185, 185);
+   
+}
+
+.s-box .s-input{
+    width: 90%;
+    padding: 13px;
+    border-radius: 25px;
+    padding-left: 45px;
+    border: 1px solid rgb(190, 188, 188);
+}
+
+.search-icon{
+    position: absolute;
+    top: 13px;
+    margin-left: 10px;
+    opacity: .4;
+}
+
+.vs-icon{
+    position: absolute;
+    top: 12px;
+    right: 10px ;
+  }
+ 
+  .buttons{
+      display: flex;
+      justify-content: center;
+      margin-top: 25px; 
+  } 
+
+  .buttons button{
+      background-color: #f5f5f5;
+      font-size: 15px;
+      padding: 10px 20px;
+      border: 0px;
+      margin: 0px 5px;
+  }
+
+  .lang{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      font-weight: 400;
+      font-size: 15px;
+  }
+
+  .lang a{
+      margin: 0px 5px;
+  }
+
+.lang a:hover{
+    text-decoration: underline;
+}
+
+.aze{
+   background-color: #f5f5f5;
+   font-size: 16px;
+   display: flex;
+   opacity: .8; 
+}
+
+.aze p{
+    padding:13px 30px ;
+    color: rgb(99, 99, 99))
+}
+
+ .links{
+     display: flex;
+     justify-content: space-between;
+     background-color: #f5f5f5;
+     border-top: 1px solid rgb(211, 206, 206);
+ } 
+.links a:hover{
+    text-decoration: underline;
+}
+ .link-1{
+     padding:15px 30px;
+     font-size: 15px;
+ }
+
+.link-2{
+    padding:15px 30px;
+    font-size: 15px;
+}
+
+.link-1 a{
+    padding: 0px 10px;
+    color:rgb(99, 99, 99)
+}
+
+.link-2 a{
+    padding: 0px 10px;
+    color: rgb(99,99,99)
